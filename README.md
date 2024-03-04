@@ -25,14 +25,23 @@ Utilizing data from official F1 sources, OpenF1 API, and Ergast F1 APIs, this pr
 ## Project Structure
 
 project-root/
+
 │
+
 ├── data/                   # Data files and sources
+
 ├── notebooks/              # Jupyter notebooks for exploration and analysis
+
 ├── src/                    # Source code for the project
+
 │   ├── data_preparation/   # Scripts for data cleaning and preparation
+
 │   └── models/             # Machine learning models
+
 ├── tests/                  # Test cases for the software
+
 ├── LICENSE
+
 └── README.md
 
 ### Installation

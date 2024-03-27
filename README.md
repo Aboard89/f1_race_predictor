@@ -24,31 +24,26 @@ Utilizing data from official F1 website (formula1.com, OpenF1 API, and Ergast F1
 
 ## Project Structure
 
+Below is the file structure of the project, outlining where specific parts of the project are located and their purpose:
+
+```plaintext
 project-root/
-
 │
+├── .github/                # GitHub-specific metadata and configuration
+├── Charts/                 # Visualizations and charts generated from the data
+├── Modelling/              # Model development scripts, including tuning and validation
+├── Notebooks/              # Jupyter notebooks for exploratory data analysis and prototyping
+├── Presentations/          # Presentation materials and slides
+├── .gitignore              # Specifies untracked files to ignore
+├── README.md               # Overview and documentation for the project
+└── requirements.txt        # List of dependencies to replicate the analysis environment
 
-├── data/                   # Data files and sources
 
-├── notebooks/              # Jupyter notebooks for exploration and analysis
-
-├── src/                    # Source code for the project
-
-│   ├── data_preparation/   # Scripts for data cleaning and preparation
-
-│   └── models/             # Machine learning models
-
-├── tests/                  # Test cases for the software
-
-├── LICENSE
-
-└── README.md
-
-### Installation
+### Installation (WIP)
 Instructions on setting up the project locally, including required packages and environment setup.
 
-###  Usage
+###  Usage (WIP)
 How to run the project, including examples of commands and scripts.
-
-### Acknowledgments
+ 
+### Acknowledgments (WIP)
 Credits to data providers, collaborators, and any third-party resources used.

@@ -17,7 +17,7 @@ This initiative aims to foster a more informed and engaged Formula 1 community, 
 Employing machine learning techniques, this project aims to surpass traditional prediction methods by identifying patterns and insights within extensive datasets. Utilizing regression analysis, classification, and neural networks, we strive to enhance the precision of predictions.
 
 ### 4. The Impact
-The aspiration of this project is to test out various data science modelling methods to see if we can predict the likely race winner of each race.
+The aspiration of this project is to test out various data science modelling methods to see if we can predict the likely race winner of each race. You can find the conclusions to the project in the Conclusions notebook "9. F1_Conclusions_and_Next_Steps.ipynb"
 
 ### 5. The Data
 Utilizing data from official F1 website (formula1.com, OpenF1 API, and Ergast F1 APIs, this project aims to create a comprehensive predictive model. The datasets include race results for each driver, grid positions, driver, car and team characteristics, dynamic race elements, and more, offering a holistic view of Formula 1 racing dynamics. The dataset ranges from 1995-2023.
@@ -31,6 +31,7 @@ project-root/
 │
 ├── .github/                # GitHub-specific metadata and configuration
 ├── Charts/                 # Visualizations and charts generated from the data
+├── Conda_Environment/      # The Conda environment files necessary for reproducing the analysis environment.
 ├── Modelling/              # Model development scripts, including tuning and validation
 ├── Notebooks/              # Jupyter notebooks for exploratory data analysis and prototyping
 ├── Presentations/          # Presentation materials and slides
@@ -50,20 +51,20 @@ project-root/
 8. `F1_Model_interpretability.ipynb`: Interpretation of the models and feature importances.
 9. `F1_Conclusions_and_Next_Steps.ipynb`: Summary of findings and future work.
 
+### Prerequisites
+- Git: [Installation guide](https://git-scm.com/downloads)
+- Conda: [Installation guide](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html)
+
 
 ## Getting Started
 
-To run this project, clone the repo and install the required Python packages:
+To run this project, clone the repo and install the required Python packages. NB - the Conda environment I used, is in the "Conda_Environment" folder:
 
 ```bash
 git clone https://github.com/yourusername/capstone-Aboard89.git
 cd capstone-Aboard89
 pip install -r requirements.txt
 
-
-
-###  Usage (WIP)
-How to run the project, including examples of commands and scripts.
  
 ### Acknowledgments (WIP)
-Credits to data providers, collaborators, and any third-party resources used.
+The original idea came from this article by Veronica Nigro: https://towardsdatascience.com/formula-1-race-predictor-5d4bfae887da. I want to thank her for the inspiration for my project and for giving me a north star to aim for.

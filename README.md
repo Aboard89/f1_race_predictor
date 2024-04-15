@@ -1,9 +1,9 @@
-# Formula 1 Race Outcome Prediction
+# Formula 1 Race Win Prediction Project
 
 ## Executive Overview
 
 ### 1. The Problem Area
-In the dynamic and data-rich world of Formula 1 racing, predicting race outcomes poses significant challenges due to incomplete historical data, race condition variability, and fluctuations in team and driver performances. This project leverages data science and machine learning techniques to analyze datasets encompassing race history, driver and constructor standings, car characteristics, and qualifying times. Our goal is to enhance prediction accuracy, thereby improving team strategies, betting odds, and fan engagement through data-driven insights.
+In the fast-paced world of Formula 1, where split-second decisions define the outcome of races, our project harnesses the power of data science to not just interpret the past, but to predict the future. We delve into extensive datasets encompassing years of race history, driver and team dynamics, and track conditions, leveraging a blend of machine learning techniques to forecast who will win future races with enhanced precision. Readers will embark on a data-driven journey from raw numbers to predictive insights, uncovering the hidden patterns that influence the podium's composition. Our goal is to enhance prediction accuracy of race winners, thereby improving team strategies, betting odds, and fan engagement through data-driven insights.
 
 ### 2. The User
 The beneficiaries of this project could include:
@@ -14,10 +14,14 @@ The beneficiaries of this project could include:
 This initiative aims to foster a more informed and engaged Formula 1 community, integrating data-driven decisions and enhancing fan interactions within the sport's ecosystem. 
 
 ### 3. The Big Idea
-Employing machine learning techniques, this project aims to surpass traditional prediction methods by identifying patterns and insights within extensive datasets. Utilizing regression analysis, classification, and neural networks, we strive to enhance the precision of predictions.
+Employing machine learning techniques, this project aims to surpass traditional prediction methods by identifying patterns and insights within extensive datasets. Utilizing regression analysis, decision trees, and gradient boosting techniques, we strive to enhance the precision of predictions.
 
 ### 4. The Impact
-The aspiration of this project is to test out various data science modelling methods to see if we can predict the likely race winner of each race. You can find the conclusions to the project in the Conclusions notebook "9. F1_Conclusions_and_Next_Steps.ipynb"
+The aspiration of this project is to test out various data science modelling methods to see if we can predict the likely race winner of each race. The project successfully leveraged large datasets, including historical race outcomes, driver and team performance, and race day conditions, to build a robust predictive model. Key insights revealed that the most influential factors for predicting F1 race winners were qualifying positions, cumulative points (at stage of season), how long a driver had been in F1 and with their team, and which team they drove for. The model demonstrated notable accuracy in forecasting race winners, making it a valuable tool for teams, bettors, and fans seeking strategic insights.
+
+The analysis also highlighted the financial viability of the model using 2024 F1 data, suggesting that it could effectively aid betting strategies and potentially generate profit in the betting industry. Personal learnings emphasized the importance of systematic data analysis and model evaluation in achieving reliable predictions. Looking ahead, the project intends to simplify the model for reduced computational demands and enhance its predictive capabilities by forecasting influential pre-race variables. Further automation of the data collection process and integration with AWS to improve user experience are also planned to refine the model's applicability and accessibility in the dynamic Formula 1 environment.
+
+You can find the conclusions to the project in the Conclusions notebook "9. F1_Conclusions_and_Next_Steps.ipynb"
 
 ### 5. The Data
 Utilizing data from official F1 website (formula1.com, OpenF1 API, and Ergast F1 APIs, this project aims to create a comprehensive predictive model. The datasets include race results for each driver, grid positions, driver, car and team characteristics, dynamic race elements, and more, offering a holistic view of Formula 1 racing dynamics. The dataset ranges from 1995-2023.
@@ -33,7 +37,7 @@ project-root/
 ├── Charts/                 # Visualizations and charts generated from the data
 ├── Conda_Environment/      # The Conda environment files necessary for reproducing the analysis environment.
 ├── Modelling/              # Model development scripts, including tuning and validation
-├── Notebooks/              # Jupyter notebooks for exploratory data analysis and prototyping
+├── Notebooks/              # Jupyter notebooks for exploratory data analysis and prototyping. NB the notebooks are in number order
 ├── Presentations/          # Presentation materials and slides
 ├── .gitignore              # Specifies untracked files to ignore
 ├── README.md               # Overview and documentation for the project
@@ -59,12 +63,6 @@ project-root/
 ## Getting Started
 
 To run this project, clone the repo and install the required Python packages. NB - the Conda environment I used, is in the "Conda_Environment" folder:
-
-```bash
-git clone https://github.com/yourusername/capstone-Aboard89.git
-cd capstone-Aboard89
-pip install -r requirements.txt
-
  
 ### Acknowledgments (WIP)
 The original idea came from this article by Veronica Nigro: https://towardsdatascience.com/formula-1-race-predictor-5d4bfae887da. I want to thank her for the inspiration for my project and for giving me a north star to aim for.
